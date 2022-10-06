@@ -1,0 +1,27 @@
+$dark: #1d1d1d;
+.wrapper {
+	display: flex;
+}
+
+.navbar {
+	width: 30%;
+	min-height: 100vh;
+	background-color: $dark;
+	.navMenu {
+		width: 100%;
+		padding: 0;
+		.navLink {
+			list-style-type: none;
+			text-align: center;
+			.link {
+				text-decoration: none;
+				color: #d1d1d1;
+				font-size: 1.25em;
+				transition: all 0.25s;
+				&.active {
+					color: orange;
+				}
+			}
+		}
+	}
+}
