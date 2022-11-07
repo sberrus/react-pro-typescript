@@ -3,9 +3,7 @@ import MainTemplate from "../templates/MainTemplate";
 const MainRouter = () => {
 	return (
 		<Routes>
-			<Route path="/" element={<MainTemplate />}>
-				<Route />
-			</Route>
+			<Route path="/" element={<MainTemplate />}></Route>
 		</Routes>
 	);
 };
